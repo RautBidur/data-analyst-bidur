@@ -40,7 +40,7 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 - Data Processing & ETL: AWS Glue, Athena, SQL
 - Data Profiling & Cleaning: AWS Glue DataBrew
 - Data Cataloging: AWS Glue Data Catalog, Crawlers
-- Data Visualization: AWS QuickSight, Tableau
+- Data Visualization: Tableau
 ### Deliverables:
 - A comprehensive descriptive report summarizing the analysis process and findings.
 - Data visualizations highlighting key trends, compliance challenges, and problem areas.
