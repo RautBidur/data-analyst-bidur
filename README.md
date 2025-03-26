@@ -39,9 +39,9 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 ### Data Visualization:
  Tableau and Excel are used for generating insights and dashboards.
 -	Create visual representations such as pie chart and bar graphs to illustrate findings:
-  -	Total units of rental property and Total outstandings on rental property.
-  - Identifying which local areas have high outstanding amounts and high total units.
-  - Identifying which street have high outstanding amounts and high total units.
+     -	Total units of rental property and Total outstandings on rental property.
+     - Identifying which local areas have high outstanding amounts and high total units.
+     - Identifying which street have high outstanding amounts and high total units.
 
 ### Insights and Findings:
 - Each rental property contains on average one unresolved issue because there are 1,376 issues among 19,090 units or 14 units per issue. The results indicate that the majority of units follow regulations but a substantial percentage of properties still requires attention for compliance.
