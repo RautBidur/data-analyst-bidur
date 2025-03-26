@@ -35,6 +35,11 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 -	The dataset processing occurs through AWS Athena for execution of queries.
 -	Applications of SQL-based aggregation methods determine the sum of total rental units alongside outstanding violations. 
 -	Filtering operations are used to extract data for different street.
+### Insights and Findings:
+- Each rental property contains on average one unresolved issue because there are 1,376 issues among 19,090 units or 14 units per issue. The results indicate that the majority of units follow regulations but a substantial percentage of properties still requires attention for compliance.
+- A large number of outstanding violations demonstrates that property owners struggle to meet standards for buildings together with electrical systems and plumbing as well as zoning criteria. Focused inspections and policy interventions in high-density rental areas could improve compliance.
+- The non-compliance issues in big rental properties impact numerous residents and affects both the quality of housing facilities and security measures. Serious violations need correction to enhance housing for a large group of residents.
+
 ### Tools and Technologies:
 - Cloud Storage & Compute: AWS S3, EC2
 - Data Processing & ETL: AWS Glue, Athena, SQL
