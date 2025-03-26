@@ -41,4 +41,7 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 - Data Profiling & Cleaning: AWS Glue DataBrew
 - Data Cataloging: AWS Glue Data Catalog, Crawlers
 - Data Visualization: AWS QuickSight, Tableau
-
+### Deliverables:
+- A comprehensive descriptive report summarizing the analysis process and findings.
+- Data visualizations highlighting key trends, compliance challenges, and problem areas.
+- Recommendations for city planners and policymakers to improve rental compliance and enforcement strategies.
