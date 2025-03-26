@@ -45,3 +45,5 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 - A comprehensive descriptive report summarizing the analysis process and findings.
 - Data visualizations highlighting key trends, compliance challenges, and problem areas.
 - Recommendations for city planners and policymakers to improve rental compliance and enforcement strategies.
+
+This descriptive analysis utilizes AWS-based cloud infrastructure to carry out a descriptive analysis that generates essential data about rental property violations in Vancouver. This study provides law enforcement authorities with useful data analytics and visualization tools that help them improve rental housing standards and enforce municipal laws.
