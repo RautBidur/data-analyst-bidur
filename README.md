@@ -19,42 +19,48 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 -	geo_local_area: The planning area where the property is located.
 -	geo_point_2d: Location in 2D. 
 ## Methodology
-### Data collection and preparation:
+### 1. Data collection and preparation:
 -	Data Source: The dataset for licensed rental properties with unresolved by-law issues for the year 2025 was collected from open data portal of City of Vancouver.
 -	Amazon S3: The dataset is ingested into an Amazon S3 bucket, acting as a data lake for raw files.
 -	EC2 instance: An EC2 instance is configured to process data and facilitate access.
 -	Multiple Servers: Data ingestion occurs from multiple sources, including general, specific, and web servers.
-### Data Profiling and Cleaning:
+### 2. Data Profiling and Cleaning:
 -	AWS Glue DataBrew is used for profiling to detect missing values, inconsistencies, and formatting issues.
 -	Cleaning techniques include removing rows with missing Business Operator names and replacing other missing values with null placeholders.
 -	Column names are reformatted for consistency.
-### Data Cataloging and Structuring:
+### 3. Data Cataloging and Structuring:
 - A curated zone is established in another S3 bucket to store structured data.
 -	AWS Glue Crawlers scan the cleaned dataset for cataloging which results in a structured table present in AWS Glue Data Catalog.
-### Data Summarization and Aggregation: 
+### 4. Data Summarization and Aggregation: 
 -	The dataset processing occurs through AWS Athena for execution of queries.
 -	Applications of SQL-based aggregation methods determine the sum of total rental units alongside outstanding violations. 
 -	Filtering operations are used to extract data for different street.
 
-### Data Visualization:
+### 5. Data Visualization:
  Tableau and Excel are used for generating insights and dashboards.
 -	Create visual representations such as pie chart and bar graphs to illustrate findings:
      -	Total units of rental property and Total outstandings on rental property.
      - Identifying which local areas have high outstanding amounts and high total units.
      - Identifying which street have high outstanding amounts and high total units.
 
-### Insights and Findings:
+### 6. Insights and Findings:
 - Each rental property contains on average one unresolved issue because there are 1,376 issues among 19,090 units or 14 units per issue. The results indicate that the majority of units follow regulations but a substantial percentage of properties still requires attention for compliance.
 - A large number of outstanding violations demonstrates that property owners struggle to meet standards for buildings together with electrical systems and plumbing as well as zoning criteria. Focused inspections and policy interventions in high-density rental areas could improve compliance.
 - The non-compliance issues in big rental properties impact numerous residents and affects both the quality of housing facilities and security measures. Serious violations need correction to enhance housing for a large group of residents.
 
-### Tools and Technologies:
+### 7. Recommendations
+
+- Strengthen enforcement mechanisms for property owners with repeated violations.
+- Provide incentives for compliance and faster issue resolution.
+- Utilize data analytics for proactive monitoring of rental property standards.
+
+## Tools and Technologies:
 - Cloud Storage & Compute: AWS S3, EC2
 - Data Processing & ETL: AWS Glue, Athena, SQL
 - Data Profiling & Cleaning: AWS Glue DataBrew
 - Data Cataloging: AWS Glue Data Catalog, Crawlers
 - Data Visualization: Tableau
-### Deliverables:
+## Deliverables:
 - A comprehensive descriptive report summarizing the analysis process and findings.
 - Data visualizations highlighting key trends, compliance challenges, and problem areas.
 - Recommendations for city planners and policymakers to improve rental compliance and enforcement strategies.
