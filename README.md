@@ -35,6 +35,14 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 -	The dataset processing occurs through AWS Athena for execution of queries.
 -	Applications of SQL-based aggregation methods determine the sum of total rental units alongside outstanding violations. 
 -	Filtering operations are used to extract data for different street.
+
+### Data Visualization:
+ Tableau and Excel are used for generating insights and dashboards.
+-	Create visual representations such as pie chart and bar graphs to illustrate findings:
+  -	Total units of rental property and Total outstandings on rental property.
+  - Identifying which local areas have high outstanding amounts and high total units.
+  - Identifying which street have high outstanding amounts and high total units.
+
 ### Insights and Findings:
 - Each rental property contains on average one unresolved issue because there are 1,376 issues among 19,090 units or 14 units per issue. The results indicate that the majority of units follow regulations but a substantial percentage of properties still requires attention for compliance.
 - A large number of outstanding violations demonstrates that property owners struggle to meet standards for buildings together with electrical systems and plumbing as well as zoning criteria. Focused inspections and policy interventions in high-density rental areas could improve compliance.
