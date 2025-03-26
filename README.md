@@ -35,7 +35,6 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 -	Applications of SQL-based aggregation methods determine the sum of total rental units alongside outstanding violations. 
 -	Filtering operations are used to extract data for different street.
 ### Tools and Technologies:
-Tools and Technologies:
 - Cloud Storage & Compute: AWS S3, EC2
 - Data Processing & ETL: AWS Glue, Athena, SQL
 - Data Profiling & Cleaning: AWS Glue DataBrew
