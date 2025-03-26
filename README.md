@@ -18,7 +18,7 @@ The dataset “[Rental standards - current issues](https://opendata.vancouver.ca
 -	geo_local_area: The planning area where the property is located.
 -	geo_point_2d: Location in 2D. 
 ## Methodology
-### Data collection and preparation
+### Data collection and preparation:
 -	Data Source: The dataset for licensed rental properties with unresolved by-law issues for the year 2025 was collected from open data portal of City of Vancouver.
 -	Amazon S3: The dataset is ingested into an Amazon S3 bucket, acting as a data lake for raw files.
 -	EC2 instance: An EC2 instance is configured to process data and facilitate access.
