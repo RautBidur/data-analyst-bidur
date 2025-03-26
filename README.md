@@ -7,7 +7,7 @@ The main purpose of this research project consists of evaluating unresolved rent
 ## Background:
 The dataset presents information about rental properties functioning with five or more units which currently maintain unresolved by-law issues. Several government standards including building standards, electrical standards, gas fitting standards, plumbing standards, zoning requirements and maintenance requirements apply to these issues. The evaluation of this data reveals how extensively rental housing quality suffers from existing violations.
 ## Dataset:
-The dataset “Rental standards - current issues” utilize the following data attributes for data analysis.
+The dataset “[Rental standards - current issues](https://opendata.vancouver.ca/explore/dataset/rental-standards-current-issues/information/)” utilize the following data attributes for data analysis.
 - businessoperator: Landlord or owner of the rental property.
 -	detailurl: Webpage address for additional information on current by-law issues.
 -	streetnumber: Number for street where the business is located.
