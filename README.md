@@ -1,5 +1,5 @@
 
-# $${\color{blue}Data Analyst - Bidur}$$
+# Data Analyst - Bidur
 # Descriptive Analysis
 ## Project Description: Descriptive Analysis of Rental By-Law Issues in Vancouver
 ## Project Title: Investigating Rental By-Law Issues in Vancouver
